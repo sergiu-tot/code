@@ -17,5 +17,12 @@ services:
     image: mysql:5.7
     ports:
       - "172.17.0.1:3306:3306"
+    volumes:
+      - mysql-storage-compose:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: Sup3Rp4sS
+
+volumes:
+  mysql-storage-compose:
+
+
