@@ -6,7 +6,7 @@ $host = "172.17.0.1";
 $user = "root";
 $pass = "Sup3Rp4sS";
 
-echo "Connect to MySQL server:\n";
+// echo "Connect to MySQL server:\n";
 
 $conn = new mysqli($host, $user, $pass);
 
